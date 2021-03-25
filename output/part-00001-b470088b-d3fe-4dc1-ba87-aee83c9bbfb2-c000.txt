@@ -1,0 +1,15 @@
+111
+[A[B[B
+aaa
+b
+s
+  {
+           "device_id": "awJo6rH",
+               "has_motion": true,
+               "end_time": "2016-12-29T18:42:00.000Z"
+    }
+  "devices": {
+      "last_event": {
+        "has_person": true,
+      }
+}

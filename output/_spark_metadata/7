@@ -1,0 +1,4 @@
+v1
+{"path":"file:///D:/JavaInThinking/IDEA/sz2003_spark/output/part-00000-8c56ca45-8bca-4b21-828b-f811bf25a72b-c000.txt","size":262,"isDir":false,"modificationTime":1607512628667,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///D:/JavaInThinking/IDEA/sz2003_spark/output/part-00001-b470088b-d3fe-4dc1-ba87-aee83c9bbfb2-c000.txt","size":231,"isDir":false,"modificationTime":1607512628591,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///D:/JavaInThinking/IDEA/sz2003_spark/output/part-00002-fd14999d-a5e3-4183-879f-024f760df69d-c000.txt","size":424,"isDir":false,"modificationTime":1607512628591,"blockReplication":1,"blockSize":33554432,"action":"add"}

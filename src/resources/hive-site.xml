@@ -1,0 +1,72 @@
+<configuration>
+	<property>
+    		<name>hive.exec.local.scratchdir</name>
+    		<value>/usr/local/hive/iotmp/root</value>
+	</property>
+	<property>
+		<name>hive.downloaded.resources.dir</name>
+		<value>/usr/local/hive/iotmp/${hive.session.id}_resources</value>
+	</property>
+	<property>
+		<name>hive.querylog.location</name>
+		<value>/usr/local/hive/iotmp/root</value>
+	</property>
+	<property>
+    		<name>hive.server2.logging.operation.log.location</name>
+    		<value>/usr/local/hive/iotmp/root/operation_logs</value>
+	</property>
+
+	<property>
+    		<name>javax.jdo.option.ConnectionURL</name>
+    		<value>jdbc:mysql://master:3306/hive?createDatabaseIfNotExist=true</value>
+	</property>
+
+	<property>
+    		<name>javax.jdo.option.ConnectionDriverName</name>
+    		<value>com.mysql.jdbc.Driver</value>
+	</property>
+
+	<property>
+    		<name>javax.jdo.option.ConnectionUserName</name>
+    		<value>root</value>
+	</property>
+
+	<property>
+    		<name>javax.jdo.option.ConnectionPassword</name>
+    		<value>@Mm123123</value>
+	</property>
+	
+	<property>
+		<name>hive.exec.mode.local.auto</name>
+		<value>true</value>
+	</property>
+
+	<property>
+		<name>hive.metastore.uris</name>
+		<value>thrift://master:9083</value>
+	</property>
+
+	<property>
+		<name>hive.metastore.local</name>
+		<value>false</value>
+	</property>
+	<property>
+		<name>hive.metastore.schema.verification</name>
+		<value>false</value>
+	</property>
+
+	<property>
+       		<name>hive.server2.thrift.port</name>
+       		<value>10000</value>
+    	</property>
+    	<property>
+      		<name>hive.server2.thrift.bind.host</name>
+      		<value>master</value>
+    	</property>
+	<property>  
+		<name>hive.aux.jars.path</name>
+		<value>/usr/local/hive/lib/</value>
+	</property>
+
+</configuration>
+

@@ -1,0 +1,16 @@
+aaa
+aaa
+aaa111
+aaaa
+b
+w
+  "devices": {
+           "last_event": {
+               "has_person": true,
+             }
+  }
+    "cameras": {
+        "has_sound": true,
+        "start_time": "2016-12-29T00:00:00.000Z",
+    }
+{"devices": {"cameras": {"device_id": "awJo6rH", "last_event": {"has_sound": true,"has_motion": true,"has_person": true,"start_time": "2016-12-29T00:00:00.000Z","end_time": "2016-12-29T18:42:00.000Z"}}}}
